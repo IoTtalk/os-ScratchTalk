@@ -1,0 +1,9 @@
+[submodule "scratch-gui"]
+	path = scratch-gui
+	url = https://github.com/zihxiangwen/scratch-gui.git
+[submodule "scratch-vm"]
+	path = scratch-vm
+	url = https://github.com/zihxiangwen/scratch-vm.git
+[submodule "ScratchTalk-Subsystem"]
+	path = ScratchTalk-Subsystem
+	url = https://github.com/zihxiangwen/ScratchTalk-Subsystem.git
