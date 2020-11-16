@@ -10,25 +10,25 @@ $ git submodule update --recursive
 
 2. Configurations
 In `scratch-vm/srcextensions/scratch3_iottalk_multiplayer/iottalk/config.js`, set URLs.
-```nodejs
+```js
 exports.iottalkCSM = "<IoTtalk URL>/csm";
-exports.iottalkCSM = "<ScratchTalk Subsystem Address>/ccmapi"; #default port 8999
+exports.iottalkCSM = "<ScratchTalk Subsystem Address>/ccmapi"; //default port 8999
 ```
 
 In `scratch-vm/srcextensions/scratch3_iottalk/iottalk/config.js`, set URLs.
-```nodejs
+```js
 const iottalkCSM = "<IoTtalk URL>/csm";
-const ccmapiURL = "<ScratchTalk Subsystem Address>/ccmapi"; #default port 8999
+const ccmapiURL = "<ScratchTalk Subsystem Address>/ccmapi"; //default port 8999
 ```
 
 In `scratch-vm/srcextensions/scratch3_iottalk_room/iottalk/config.js`, set URLs.
-```nodejs
+```js
 exports.iottalkCSM = "<IoTtalk URL>/csm";
-exports.iottalkCSM = "<ScratchTalk Subsystem Address>/ccmapi"; #default port 8999
+exports.iottalkCSM = "<ScratchTalk Subsystem Address>/ccmapi"; //default port 8999
 ```
 
 In `ScratchTalk-Subsystem/config.js`, set URL.
-```nodejs
+```js
 exports.AutogenURL = "<AutoGen Address>/autogen/ccm_api";
 ```
 
