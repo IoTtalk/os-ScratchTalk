@@ -4,6 +4,7 @@
 1. Download
 ``` command
 $ git clone https://github.com/zihxiangwen/ScratchTalk.git
+$ cd ScratchTalk
 $ git submodule init
 $ git submodule update --recursive
 ```
@@ -44,5 +45,6 @@ $ npm start
 4. Run ScratchTalk-Subsystem (backend)
 ``` command
 $ cd ScratchTalkSubsystem
+$ npm install
 $ npm start
 ```
