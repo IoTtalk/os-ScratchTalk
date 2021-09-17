@@ -12,20 +12,20 @@ $ git submodule update --recursive
 2. Configurations
 In `scratch-vm/src/extensions/scratch3_iottalk_multiplayer/iottalk/config.js`, set URLs.
 ```js
-exports.iottalkCSM = "<IoTtalk URL>/csm";
-exports.ccmapiURL = "<ScratchTalk Subsystem Address>/ccmapi"; //default port 8999
+const iottalkCSM = "<IoTtalk URL>/csm";
+const serverName = "<ScratchTalk Address>";
 ```
 
 In `scratch-vm/src/extensions/scratch3_iottalk/iottalk/config.js`, set URLs.
 ```js
-const iottalkCSM = "<IoTtalk URL>/csm";
-const ccmapiURL = "<ScratchTalk Subsystem Address>/ccmapi"; //default port 8999
+exports.iottalkCSM = "<IoTtalk Address>/csm";
+exports.serverName = "<ScratchTalk Address>";
 ```
 
 In `scratch-vm/src/extensions/scratch3_iottalk_room/iottalk/config.js`, set URLs.
 ```js
-exports.iottalkCSM = "<IoTtalk URL>/csm";
-exports.ccmapiURL = "<ScratchTalk Subsystem Address>/ccmapi"; //default port 8999
+exports.iottalkCSM = "<IoTtalk Address>/csm";
+exports.serverName = "<ScratchTalk Address>";
 ```
 
 In `ScratchTalk-Subsystem/config.js`, set URL.
@@ -43,7 +43,7 @@ exports.authTokenURI = "<URI for exchange token>";
 ```
 In `ScratchTalk-Subsystem/rc/js/main.js`, set URL.
 ```js
-const Csm_URL = "<IoTtalk URL>/csm";
+const csmURL = "https://<iottalk address>/csm";
 ```
 
 3. Run Scratch GUI (frontend)
