@@ -1,9 +1,11 @@
 [submodule "scratch-gui"]
 	path = scratch-gui
-	url = https://github.com/rreexxllii0310/scratch-gui.git
+	url = https://gitlab.com/IoTtalk/scratchtalk/scratch-gui
 [submodule "scratch-vm"]
 	path = scratch-vm
-	url = https://github.com/rreexxllii0310/scratch-vm.git
+	url = https://gitlab.com/IoTtalk/scratchtalk/scratch-vm
 [submodule "ScratchTalk-Subsystem"]
 	path = ScratchTalk-Subsystem
-	url = https://github.com/rreexxllii0310/ScratchTalk-Subsystem.git
+	url = https://gitlab.com/IoTtalk/scratchtalk/ScratchTalk-Subsystem
+[submodule "Scratch-Subsystem"]
+	url = https://gitlab.com/IoTtalk/scratchtalk/Scratch-Subsystem
