@@ -4,7 +4,7 @@
 ----------------------------------------------------------------------
 1. os-IoTtalk
 2. os-AutoGen
-3. os-EduTalk
+3. os-ScratchTalk
 ## Installation
 1. Download
 ``` command
