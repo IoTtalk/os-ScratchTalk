@@ -1,10 +1,15 @@
 # ScratchTalk
 
+## Required Systems
+----------------------------------------------------------------------
+1. os-IoTtalk
+2. os-AutoGen
+3. os-EduTalk
 ## Installation
 1. Download
 ``` command
 $ git clone https://github.com/IoTtalk/os-ScratchTalk.git
-$ cd ScratchTalk
+$ cd os-cratchTalk
 $ git submodule init
 $ git submodule update --recursive
 ```
