@@ -3,35 +3,34 @@
 ## Installation
 1. Download
 ``` command
-$ git clone https://github.com/zihxiangwen/ScratchTalk.git
+$ git clone https://github.com/IoTtalk/os-ScratchTalk.git
 $ cd ScratchTalk
 $ git submodule init
 $ git submodule update --recursive
 ```
 
 2. Configurations
-In `scratch-vm/src/extensions/scratch3_iottalk_multiplayer/iottalk/config.js`, set URLs.
+In `scratch-gui/src/components/library/library.jsx`,line 21 set URL.
 ```js
-const iottalkCSM = "<IoTtalk URL>/csm";
-const serverName = "<ScratchTalk Address>";
+const serverName = "<ScratchTalk Address>"
 ```
 
-In `scratch-vm/src/extensions/scratch3_iottalk/iottalk/config.js`, set URLs.
+In `scratch-gui/config.js` line 1, 2 set URLs.
 ```js
-exports.iottalkCSM = "<IoTtalk Address>/csm";
+exports.iottalkCSM = "<IoTtalk Address>";
 exports.serverName = "<ScratchTalk Address>";
 ```
 
-In `scratch-vm/src/extensions/scratch3_iottalk_room/iottalk/config.js`, set URLs.
+In `scratch-vm/src/extensions/scratch3_iottalk/iottalk/config.js`,line 1, 2 set URLs.
 ```js
-exports.iottalkCSM = "<IoTtalk Address>/csm";
+exports.iottalkCSM = "<IoTtalk Address>";
 exports.serverName = "<ScratchTalk Address>";
 ```
 
-In `ScratchTalk-Subsystem/config.js`, set URL.
+In `ScratchTalk-Subsystem/config.js`, set URLs.
 ```js
-exports.serverName = "<Server Domain Name>"
-exports.serverPort = "<Server Port>";
+exports.serverName = "<ScratchTalk Server Domain Name>";
+exports.serverPort = "<ScratchTalk Server Port>";
 exports.autogenURL = "<AutoGen Address>/autogen/ccm_api";
 
 exports.authIssuer = "<OAuth server URL>";
@@ -41,9 +40,14 @@ exports.authURI = "<OAuth Auth URI>";
 exports.authCallbackURI = "<OAuth callback URI>";
 exports.authTokenURI = "<URI for exchange token>";
 ```
-In `ScratchTalk-Subsystem/rc/js/main.js`, set URL.
+In `ScratchTalk-Subsystem/rc/js/main.js`, line 2 set URL.
 ```js
-const csmURL = "https://<iottalk address>/csm";
+const csmURL = "https://<iottalk address>";
+```
+
+In `ScratchTalk-Subsystem/rc/js/csmapi.js`, line 2 set URL.
+```js
+var ENDPOINT = "https://<iottalk address>";
 ```
 
 3. Run Scratch GUI (frontend)
