@@ -70,25 +70,27 @@ $ cd ScratchTalkSubsystem
 $ npm install
 $ npm start
 ```
+
 5. DB setting (using sqlite as DB)
 In `ScratchTalk-Subsystem/db/db.js`
 ``` command
 uncomment line 21 to 33 and comment line 7 to 18
 ```
+
 6. DB setting (using mysql as DB)
 In `ScratchTalk-Subsystem/config.js`
 ```js
-exports.dbHost = <your_db_host> // eg: "localhost";
-exports.dbUser = <your_db_user> // eg: "root";
-exports.dbPassword = <your_db_passwd> // eg: "root";
-exports.db = <your_db_pawwsd> // eg:"scratchtalk";
+exports.dbHost = "<your_db_host>"; // eg: "localhost";
+exports.dbUser = "<your_db_user>"; // eg: "root";
+exports.dbPassword = "<your_db_passwd>"; // eg: "root";
+exports.db = "<your_db_pawwsd>"; // eg:"scratchtalk";
 ```
 
 7. Setting IoTtalk user and password
 In `ScratchTalk-Subsystem/config.js`
 ```js
-exports.iottalkUser = <your_iottalk_useer>, //eg: "scratchtalk"; 
-exports.iottalkPassword = <your_iottalkpasswd>, // eg: "scratchtalk"; 
+exports.iottalkUser = "<your_iottalk_useer>" //eg: "scratchtalk"; 
+exports.iottalkPassword = "<your_iottalkpasswd>" // eg: "scratchtalk"; 
 ```
 ## TLS settings
 In `scratch-gui/webpack.config.js`, add `public` in the `devServer` section.
