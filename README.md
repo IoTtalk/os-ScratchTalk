@@ -74,7 +74,7 @@ $ npm start
 5. DB setting (using sqlite as DB)
 In `ScratchTalk-Subsystem/db/db.js`
 ``` command
-uncomment line 21 to 33 and comment line 7 to 18
+uncomment line 21 to 33 and comment line 7 to 18 and 44 to 50
 ```
 
 6. DB setting (using mysql as DB)
