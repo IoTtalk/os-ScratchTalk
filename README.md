@@ -70,6 +70,8 @@ $ cd ScratchTalkSubsystem
 $ npm install
 $ npm start
 ```
+5. DB setting (when you want to use sqlite instead of mysql)
+uncomment ScratchTalk-Subsystem/db/db.js line 21~33 and comment line 7~18
 
 ## TLS settings
 In `scratch-gui/webpack.config.js`, add `public` in the `devServer` section.
