@@ -5,6 +5,12 @@
 1. os-IoTtalk
 2. os-AutoGen
 3. os-ScratchTalk
+
+## Prerequirements
+
+1. Configure https on your server
+2. Create the device model `Scratch3` on your IoTtalk, containing idfs: Microphone-I (1-dim), Orientation-I (3-dim) and odfs: Horizontal-O (1-dim), Vertical-O (1-dim), Volume-O (1-dim).
+
 ## Installation
 1. Download
 ``` command
